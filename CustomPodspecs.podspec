@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :http => "https://drive.google.com/uc?export=download&id=1b80IHTlGY9lhOJaAcMbKiqP6gMSGxPv6", :type => 'zip' }
+  spec.source       = { :http => "https://drive.google.com/uc?export=download&id=14jmpC75xCuKiL8GAwc0Uz0g4QvMdcptm", :type => 'zip' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
