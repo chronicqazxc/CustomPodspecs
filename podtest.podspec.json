@@ -1,0 +1,25 @@
+{
+  "name": "PodTest",
+  "version": "0.2.9",
+  "summary": "PodTest demo.",
+  "description": "Practice using CocoaPods.",
+  "homepage": "https://github.com/chronicqazxc/PodTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Wayne Hsiao": "chronicqazxc@gmail.com"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/chronicqazxc/PodTest.git"
+  },
+  "source_files": "PodTest.framework/Headers/*.{h}",
+  "preserve_paths": "PodTest.framework",
+  "ios": {
+    "vendored_frameworks": "PodTest.framework"
+  }
+}
