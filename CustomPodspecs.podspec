@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint PodTest.podspec' to ensure this is a
+#  Be sure to run `pod spec lint CustomPodspecs.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,18 +15,18 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "PodTest"
-  spec.version      = "0.2.9"
-  spec.summary      = "PodTest demo."
+  spec.name         = "CustomPodspecs"
+  spec.version      = "0.0.1"
+  spec.summary      = "CustomPodspecs."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "Practice using CocoaPods."
+  spec.description  = "CustomPodspecs"
 
-  spec.homepage     = "https://github.com/chronicqazxc/PodTest"
+  spec.homepage     = "https://github.com/chronicqazxc/CustomPodspecs.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -37,7 +37,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
+  spec.license      = "MIT (example)"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -63,7 +63,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "11.0"
+  # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -92,7 +92,6 @@ Pod::Spec.new do |spec|
   spec.source_files = "PodTest.framework/Headers/*.{h}"
   spec.preserve_paths = "PodTest.framework"
   spec.ios.vendored_frameworks = "PodTest.framework"
-  # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
